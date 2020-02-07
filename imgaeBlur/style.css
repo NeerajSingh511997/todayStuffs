@@ -1,0 +1,30 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+div{
+	position: relative;
+}
+
+.frontend{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(img/def.jepg);
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.backend{
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	background: url(img/def.jpeg);
+
+
+}

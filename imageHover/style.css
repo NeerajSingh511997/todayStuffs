@@ -1,0 +1,82 @@
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.column{
+	position: relative;
+	border: 2px solid rgba(0,0,0,0.2);;
+}
+
+.container .column{
+	width: 25%;
+	height: 100%;
+	float: left;
+	z-index: 1;
+	box-sizing: border-box;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	border-right: collapse;
+	border-left: collapse;
+}
+
+.content h1{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 13em;
+	background: rgba(0,0,0,0.5);
+	color: rgba(255,255,255,0.2);
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.box{
+	font-size: 24px;
+	position: absolute;
+	padding: 40px;
+	top: 50%;
+	background: rgba(255,255,255, .8);
+	border-top: 2px solid rgba(0,0,0,0.5);
+	border-bottom: 2px solid rgba(0,0,0,0.5);
+	transform: translateY(-50%); 
+	text-align: center;
+}
+
+
+/* background image classes ! */
+
+.bg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	pointer-events: none;
+	background: url(img/def.jpeg);
+	background-size: cover;
+}	
+
+
+/*.bg1{
+	background: url(img/bg1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover; 
+	transition: .05s;
+}*/
+
+.chnageBg{
+	background: url(img/img1.jpeg);
+	background-size: cover;
+}
